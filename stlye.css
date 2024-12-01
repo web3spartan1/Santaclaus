@@ -59,9 +59,9 @@ body{
     background-position: center;
     background-size: cover;
     color: #ffffff;
-    height: 60vh;
+    height: 70vh;
     background-attachment: fixed;
-    padding: 90px 20px;
+    padding: 100px 20px;
     text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
 }
 

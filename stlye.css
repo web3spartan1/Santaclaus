@@ -1,0 +1,278 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.navbar-brand img{
+    height: auto;
+    width: 30px;
+    border-radius: 60px;
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand img:hover{
+    transform: scale(1.1);
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #004d40;
+
+}
+.by a{
+    color: white;
+}
+
+/* navbar stlye */
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-text{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.navbar-nav .nav-link{
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover{
+    color: #d32f2f;
+    text-decoration: underline;
+}
+
+/* active link */
+.navbar-nav .nav-link.active{
+    color: #388e3c;
+}
+
+/* header stlye */
+#main-header{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(./1000058865.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    height: 50vh;
+    padding: 90px 20px;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+}
+
+#main-header h1{
+    font-size: 3.5rem;
+    font-size: bold;
+}
+
+#main-header p{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* section headings */
+.vv{
+    color: #004d40;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+/* features section */
+.feature{
+    background-color: #ffffff;
+}
+
+.featured-card{
+    background-color: #004d40;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.featured-card:hover{
+    transform: scale(1.05);
+}
+
+/* about-section */
+#about{
+    background-color: #f7f7f7;
+    padding: 50px 20px;
+}
+#about p{
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* funfact */
+#fun-facts{
+    background-color: #f7f7f7;
+}
+
+#fun-facts h5{
+    color: #d32f2f;
+}
+
+#fun-facts p{
+    font-size: 1rem;
+    color: #004d40;
+}
+
+/* socials */
+#socials a{
+    font-size: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+/* kk socail text */
+.kk{
+    font-size: 30px;
+}
+
+#socials a i {
+
+    font-size: 20px;
+}
+#socials a:hover{
+    background-color: #004d40;
+    color: white;
+    text-decoration: none;
+}
+
+/* newsletter */
+#newsletter{
+    background-color: #004d40;
+    color: #ffffff;
+}
+
+#newsletter button{
+    background-color: #ffd700;
+    color: #004d40;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#newsletter button:hover{
+    background-color: #004d40;
+    color: #ffffff;
+}
+
+.form-control{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+
+/* footer */
+#footer{
+    background-color: #004d40;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+/* navigaation bar */
+
+.navbar{
+    background-color:#013220;
+    color: white;
+}
+
+.nav-link{
+    color: #ffffff !important;
+
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover{
+    color: #ccffcc !important;
+}
+
+.nav-link.active{
+    color: #ffd700 !important;
+}
+
+.bd{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./1000058864.jpg);
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: red;
+}
+
+
+.nb{
+    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./1000058900.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+/* snow flakes */
+
+#snowflakes-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+
+.snowflake{
+    position: absolute;
+    color: white;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    from{
+        transform: translateY(-10%);
+    }
+    to{
+        transform: translateY(110%);
+    }
+}
+
+/* back to top  */
+#back-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+/* hover effect */
+#back-to-top:hover{
+    background-color: #45a049;
+}
+
+/* resposive button */
+
+@media (max-width: 600px) {
+    #back-to-top{
+        font-size: 18px;
+        padding: 12px;
+    }
+}
+

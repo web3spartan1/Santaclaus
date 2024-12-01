@@ -59,9 +59,9 @@ body{
     background-position: center;
     background-size: cover;
     color: #ffffff;
-    height: 70vh;
+    height: 60vh;
     background-attachment: fixed;
-    padding: 100px 20px;
+    padding: 90px 20px;
     text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
 }
 
@@ -199,7 +199,7 @@ body{
 
 .bd{
     background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./1000058864.jpg);
-    height: 70vh;
+    height: 60vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -210,7 +210,7 @@ body{
 
 .nb{
     background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./1000058900.jpg);
-    height: 80vh;
+    height: 70vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
